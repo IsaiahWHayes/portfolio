@@ -1,0 +1,139 @@
+* {
+    border: thin dotted red;
+}
+
+#container {
+    width: 0 auto;
+    height: 0 auto;
+}
+
+.section-titles {
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    font-family: 'Lora', sans-serif;
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+    color: rgb(165, 159, 159);
+    opacity: 0.3;
+    font-size: 35px;
+}
+
+.section-copy {
+    display: inline-flex;
+    justify-items: center;
+    margin-left: 25px;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    width: 595px;
+    line-height: 75px;
+    text-transform: uppercase;
+    color: rgb(37, 37, 36);
+    text-shadow: 2px 2px 5px rgb(207, 205, 203);
+}
+
+.header {
+    height: 700px;
+    background-image: url(photos/Isaiah_Hololens.jpeg);
+    background-size: cover;
+    text-align: center;
+}
+
+    #myname {
+        font-family: 'Lora', sans-serif;
+        text-align: left;
+        padding-top: 65px;
+        padding-left: 50px;
+    }
+
+    .header-text {
+        display: block;
+        color: white;
+    }
+
+    .header-text span {
+        color: whitesmoke;
+    }
+
+    .header h2 {
+        margin-top: 40px;
+        line-height: 40px;
+        display: block;
+        text-align: center;
+        margin-left: 465px;
+    }
+
+    .navbar {
+        display: block;
+    } 
+
+    .navbar li {
+        display: inline-block;
+        margin-right: 20px;
+        padding-right: 10px;
+        border-right: inset 2px rgb(128, 120, 110);
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .navbar li:last-child {
+        border: none;
+    }
+
+    .navbar a {
+        color: rgb(36, 34, 28);
+    }
+
+.about {
+    height: 400px;
+    text-align: initial;
+    background-image: linear-gradient(rgb(199, 193, 193) 5%, white);
+}
+
+    .about p {
+        font-size: 35px;
+        width: 450px;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 180px;
+    }
+
+    .about ul {
+        display: inline-block;
+    }
+
+.portfolio {
+    height: 600px;
+    background-image: linear-gradient(rgb(241, 236, 236) 15%, black);
+}
+
+    .portfolio p {
+        text-align: center;
+    }
+
+    .video-grid-container {
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+        padding: 5px;
+    }
+
+    .portfolio-video {
+        background-color: gold;
+        border: thin solid blue;
+        height: 225px;
+        width: 405px;
+    }
+
+    .portfolio-text {
+        text-align: center;
+    }
+
+.services {
+    height: 400px;
+    background-image: linear-gradient(rgb(199, 193, 193) 5%, white);
+}
+
+.contact {
+    height: 450px;
+    background-image: linear-gradient(lightgrey, rgb(75, 74, 74));
+}
